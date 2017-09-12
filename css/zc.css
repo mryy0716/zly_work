@@ -52,11 +52,9 @@ form button{
     float: right;
     background: #eee;
 }
-section img{
+label a{
+    text-decoration: none;
     float: right;
-    width: auto;
-    height:.3rem;
-    margin-top: .05rem;
 }
 section p{
     color:#999;
