@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-size: .16rem;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: .45rem;
+    line-height: .45rem;
+    display: flex;
+    border-bottom: 1px solid #999;
+}
+header h1{
+    flex:1;
+    text-align: center;
+    font-size: .24rem;
+    font-weight: normal;
+}
+section{
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+form{
+    width: 100%;
+    height: auto;
+}
+form label{
+    line-height: .45rem;
+    border-bottom: 1px solid #999;
+    display: block;
+}
+form input,button{
+    border:none;
+    outline: none;
+}
+form input{
+    padding-left: .1rem;
+    font-size: .14rem;
+}
+form button{
+    height: .45rem;
+    width:35%;
+    float: right;
+    background: #eee;
+}
+section img{
+    float: right;
+    width: auto;
+    height:.3rem;
+    margin-top: .05rem;
+}
+section p{
+    color:#999;
+    font-size: .14rem;
+    line-height: .3rem;
+}
+.zc{
+    width: 100%;
+    height: .45rem;
+    display: block;
+    margin-top: .2rem;
+    font-size: .16rem;
+}
